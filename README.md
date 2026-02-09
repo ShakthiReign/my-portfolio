@@ -3,7 +3,7 @@
 Personal portfolio showcasing my journey, skills, and projects as an aspiring **Full-Stack Java Developer**.
 
 ![Portfolio Preview] 
-**Live Demo:** 
+**Live Demo:** https://shakthireign.github.io/my-portfolio/ 
 
 ## About Me
 
