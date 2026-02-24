@@ -1,21 +1,176 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shakthi's Portfolio</title>
+    <title>Shakthi G | Full-Stack</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
 </head>
 <body>
-    <h1>Hello, I'm Shakthi!</h1>
-    <p>Welcome to my portfolio website.</p>
-    <p>This is a simple portfolio website showcasing my projects and skills.</p>
-    <p>I am a passionate developer with expertise in Java Full Stack development.</p>
-    <p>I am currently working on various projects and continuously learning new technologies to enhance my skills.</p>
-    <p>In my portfolio, you'll find a collection of my recent work and projects that showcase my abilities and experience.</p>
-    <p>Feel free to explore my portfolio and reach out to me if you have any questions or would like to collaborate on a project!</p>
-    <p>contact me through my github profile: <a href="https://github.com/ShakthiReign">GitHub Profile</a></p>
-    <button id="myButton">Click Me!</button>
+    <!-- Navigation (Glass Morphism) -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">🗡️ Shakthi</div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="theme-toggle" id="themeToggle">🌙</div>
+        </div>
+    </nav>
+
+    <!-- Hero Section (Anime Particles Background) -->
+    <section id="home" class="hero">
+        <canvas id="particles" class="anime-bg"></canvas>
+        <div class="hero-content">
+            <h1 class="hero-title anime-reveal" data-aos="fade-up">
+                Hey, I'm <span class="chakra-text">Shakthi G</span>
+            </h1>
+            <h2 class="hero-subtitle typing" data-aos="fade-up" data-aos-delay="200">
+                Java Full-Stack Developer | German A1 → B1
+            </h2>
+            <div class="hero-buttons" data-aos="fade-up" data-aos-delay="400">
+                <a href="#projects" class="btn btn-primary">View My Projects</a>
+                <a href="#contact" class="btn btn-secondary">Hire Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section (Glass Card) -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title anime-reveal">About Me</h2>
+            <div class="about-grid">
+                <div class="glass-card" data-aos="fade-right">
+                    <h3>🎯 My Journey</h3>
+                    <p>ECE grad from Trichy,TamilNadu → Full-Stack | Mastering Java, SQL, Front-End-Web Technologies | Deutsch Language A2.</p>
+                </div>
+                <div class="glass-card" data-aos="fade-left">
+                    <h3>⚡ Currently Learning</h3>
+                    <ul>
+                        <li>Spring Boot + REST APIs</li>
+                        <li>Web Development (HTML/CSS/JS)</li>
+                        <li>Hybernate | Maven</li>
+                        <!-- <li>AWS Cloud Practitioner</li> -->
+                        <!-- <li>Docker & DevOps basics</li> -->
+                        <li>Goethe B1 German</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section (Progress Bars) -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title anime-reveal">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card glass-card" data-aos="zoom-in">
+                    <h3>Java</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85%"></div>
+                    </div>
+                </div>
+                <div class="skill-card glass-card" data-aos="zoom-in" data-aos-delay="100">
+                    <h3>SQL/Oracle</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="90%"></div>
+                    </div>
+                </div>
+                <div class="skill-card glass-card" data-aos="zoom-in" data-aos-delay="200">
+                    <h3>React</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="40%"></div>
+                    </div>
+                </div>
+                <div class="skill-card glass-card" data-aos="zoom-in" data-aos-delay="200">
+                    <h3>Front-End Web</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="90%"></div>
+                    </div>
+                </div>
+                <!-- <div class="skill-card glass-card" data-aos="zoom-in" data-aos-delay="300">
+                    <h3>Cloud</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="65%"></div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section (3D Tilt Cards) -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title anime-reveal">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card glass-card" data-tilt data-aos="fade-up">
+                    <h3>Trending Valentine Prank Project</h3>
+                    <p>Front-end project with interactive animations(DOM manipulation)</p>
+                    <div class="project-links">
+                        <a href="https://shakthireign.github.io/valentine-proposal/" class="btn btn-sm">Live Demo</a>
+                        <a href="https://github.com/ShakthiReign/valentine-proposal" class="btn btn-sm">GitHub</a>
+                    </div>
+                </div>
+                <div class="project-card glass-card" data-tilt data-aos="fade-up">
+                    <h3>CodeSprint</h3>
+                    <p>Full-stack web application with Spring Boot backend and frontend</p>
+                    <div class="project-links">
+                        <a href="" class="btn btn-sm">Live Demo</a>
+                        <a href="" class="btn btn-sm">GitHub</a>
+                    </div>
+                </div>
+                <!-- <div class="project-card glass-card" data-tilt data-aos="fade-up" data-aos-delay="100">
+                    <h3>SQL Dashboard</h3>
+                    <p>Oracle 10g analytics with advanced queries & joins</p>
+                    <div class="project-links">
+                        <a href="#" class="btn btn-sm">Demo</a>
+                        <a href="#" class="btn btn-sm">Code</a>
+                    </div>
+                </div>
+                <div class="project-card glass-card" data-tilt data-aos="fade-up" data-aos-delay="200">
+                    <h3>E-Commerce</h3>
+                    <p>MERN stack store with payment integration</p>
+                    <div class="project-links">
+                        <a href="#" class="btn btn-sm">Live</a>
+                        <a href="#" class="btn btn-sm">Repo</a>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title anime-reveal">Get In Touch</h2>
+            <div class="contact-grid">
+                <div class="glass-card" data-aos="fade-right">
+                    <h3>📍 Let's Connect</h3>
+                    <p>@Chennai | Contact me via,</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/shakthi-gopinath-29a11a339/">LinkedIn</a>
+                        <a href="https://github.com/ShakthiReign">GitHub</a>
+                        <a href="https://www.instagram.com/shakthi_reign_?igsh=bjBpaTQ4emJhY2ho">Instagram</a>
+                    </div>
+                </div>
+                <form class="glass-card contact-form" data-aos="fade-left">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="your@email.com" required>
+                    <textarea placeholder="Tell me about your project..." required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.0/dist/vanilla-tilt.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
