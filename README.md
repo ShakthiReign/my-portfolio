@@ -5,6 +5,21 @@ Personal portfolio showcasing my journey, skills, and projects as an aspiring **
 ![Portfolio Preview] 
 **Live Demo:** https://shakthireign.github.io/my-portfolio/ 
 
+
+#VERSION 2
+![Anime Portfolio V2 Preview](https://img.shields.io/badge/Anime%20Portfolio-v2.0-FF6B9D?style=for-the-badge&logo=react&logoColor=white)
+
+A **minimalist anime-inspired portfolio** built with **HTML5, CSS3, Vanilla JS** featuring:
+
+## 🎌 **Anime Features**
+- **Particle System** - Demon Slayer breathing effects (80 chakra orbs)
+- **Glass Morphism** - Jujutsu Kaisen cursed energy panels
+- **3D Tilt Cards** - Gacha collectible project showcase
+- **Smooth Animations** - Solo Leveling power-up reveals
+- **Dark/Light Theme** - Ninja realm toggle
+- **Mouse Repulsion** - Particles flee from cursor aura
+
+
 ## About Me
 
 - **Name**: Shakthi  
