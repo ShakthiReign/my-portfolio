@@ -1,64 +1,36 @@
-# Shakthi's Portfolio Website
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-Personal portfolio showcasing my journey, skills, and projects as an aspiring **Full-Stack Java Developer**.
+## Getting Started
 
-![Portfolio Preview] 
-**Live Demo:** https://shakthireign.github.io/my-portfolio/ 
+First, run the development server:
 
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-#VERSION 2
-![Anime Portfolio V2 Preview](https://img.shields.io/badge/Anime%20Portfolio-v2.0-FF6B9D?style=for-the-badge&logo=react&logoColor=white)
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-A **minimalist anime-inspired portfolio** built with **HTML5, CSS3, Vanilla JS** featuring:
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## 🎌 **Anime Features**
-- **Particle System** - Demon Slayer breathing effects (80 chakra orbs)
-- **Glass Morphism** - Jujutsu Kaisen cursed energy panels
-- **3D Tilt Cards** - Gacha collectible project showcase
-- **Smooth Animations** - Solo Leveling power-up reveals
-- **Dark/Light Theme** - Ninja realm toggle
-- **Mouse Repulsion** - Particles flee from cursor aura
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Learn More
 
-## About Me
+To learn more about Next.js, take a look at the following resources:
 
-- **Name**: Shakthi  
-- **Education**: B.E. Electronics & Communication Engineering (2025), Saranathan College  
-- **Experience**: Product Testing Trainee at Syrma SGS (until Nov 2025)  
-- **Current Learning**: Intensive Java Full Stack course at Qspiders  
-  → Core Java, SQL, HTML/CSS/JS, Spring Boot (upcoming)  
-- **Key Project**: Voice-Based Email System for Visually Impaired (NLP + RPA)  
-- **Other**: Beginner in German (A1 level) for global opportunities  
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-Transitioning from electronics/testing to software development because I love logic, problem-solving, and building impactful applications.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Tech Stack (so far)
+## Deploy on Vercel
 
-- Java (Core, OOP, Collections)  
-- SQL / Oracle  
-- HTML5 + CSS3 (Flexbox, Grid, Responsive)  
-- JavaScript (ES6+, DOM, Events)  
-- Tools: Git, VS Code, GitHub  
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-## Projects
-
-1. **Personal Portfolio** (this repo!)  
-   - Built with HTML, CSS, JavaScript  
-   - Live: https://shakthireign.github.io/my-portfolio/  
-
-2. **Voice-Based Email for Visually Impaired**  
-   - NLP + RPA powered voice email client  
-   - Helps accessibility for blind users  
-   - Tech: Java/Python, Speech Recognition libraries  
-
-More projects coming soon (CRUD apps, Spring Boot APIs, etc.)
-
-## Contact Me
-
-- GitHub: [@ShakthiReign](https://github.com/ShakthiReign)  
-- Email: [shakthireign@gmail.com] 
-- LinkedIn: [https://www.linkedin.com/in/shakthi-gopinath-29a11a339] 
-
-Feel free to reach out for collaborations, opportunities, or just to chat about tech!
-
-Made with ❤️ in Chennai | © 2026 Shakthi
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+:root {
+  --bumble-dark: #050507;
+  --bumble-card: #0d0d11;
+  --bumble-border: #1e1e24;
+  --bumble-yellow: #FFE600;
+  --bumble-yellow-hover: #E6CF00;
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #050507;
+}
+
+body {
+  background-color: #050507;
+  color: #f4f4f5;
+  overflow-x: hidden;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* Custom Bumblebee text selection */
+::selection {
+  background-color: #FFE600;
+  color: #050507;
+}
