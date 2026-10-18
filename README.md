@@ -5,7 +5,7 @@
 **Java Backend & Full-Stack Developer**  
 *Building structured relational database systems, layered backend architectures, and high-craft interactive web interfaces.*
 
-[![Live Portfolio](https://img.shields.io/badge/🌐_LIVE_PORTFOLIO-FFE600?style=for-the-badge&logo=vercel&logoColor=black)](https://shakthigopinath.vercel.app)
+[![Live Portfolio](https://img.shields.io/badge/🌐_LIVE_PORTFOLIO-FFE600?style=for-the-badge&logo=vercel&logoColor=black)](https://shakthigopinath-portfolio.vercel.app)
 [![SharePlate Live Demo](https://img.shields.io/badge/🚀_SHAREPLATE_DEMO-22C55E?style=for-the-badge&logo=vercel&logoColor=black)](https://shareplate-green.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shakthi-gopinath-29a11a339/)
 [![Email](https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shakthigopinathj@gmail.com)
